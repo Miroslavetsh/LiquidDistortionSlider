@@ -1,4 +1,4 @@
-const images = ['/img/1.jpg', '/img/2.jpg', '/img/3.jpg', '/img/4.jpg', '/img/5.jpg']
+const images = ['img/1.jpg', 'img/2.jpg', 'img/3.jpg', 'img/4.jpg', 'img/5.jpg']
 
 const texts = [
   ['Mirrorless ', 'Take your vision into a picture'],
