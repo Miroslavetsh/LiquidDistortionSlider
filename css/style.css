@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.rgbKineticSlider {
+  position: relative;
+  overflow: hidden;
+  min-block-size: 100%;
+  block-size: 100vh;
+  max-block-size: 100vh;
+  inline-size: 100%;
+}
+
+.rgbKineticSlider canvas {
+  position: absolute;
+  display: block;
+  inset-block-start: 0;
+  inset-inline-start: 0;
+  transform: scale(1);
+}
+
+.nav__link {
+  display: block;
+  padding: 9px 27px;
+  position: absolute;
+  inset-block-start: 50vh;
+  z-index: 1;
+
+  text-decoration: none;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  border-block-end: 2px solid #fff;
+  overflow: hidden;
+  transition: .5s;
+}
+
+.nav__link:hover {
+  color: #fff;
+}
+
+.nav__link--prev {
+  inset-inline-start: 20px;
+}
+.nav__link--next {
+  inset-inline-end: 20px;
+}
